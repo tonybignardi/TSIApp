@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+   <TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Detalhes Professor"
+  android:textSize="30sp"
+       />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+  <TextView
+   android:layout_width="0dp"
+   android:layout_weight="2"
+   android:layout_height="match_parent"
+   android:text="Tony Bignardi"
+   android:textSize="20sp"
+   android:textStyle="bold"
+    android:gravity="center"
+      android:id="@+id/nomeProf"
+
+      />
+
+     <ImageView
+     android:layout_weight="1"
+    android:id="@+id/fotoProf"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:src="@mipmap/ic_launcher"
+         />
+
+  </LinearLayout>
+
+    <TextView
+        android:id="@+id/textoProf"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus magna vitae augue iaculis sodales. Vestibulum ac nunc sed eros pharetra ullamcorper vel eget mauris. Nunc vel nisi placerat, iaculis ex vel, dignissim magna. Cras viverra metus at elit faucibus consequat bibendum id lectus. Etiam eget nisi bibendum sem mattis molestie ut porttitor orci. Duis egestas eget odio ac dapibus. In commodo erat in dui pharetra, vel varius nunc mattis. Integer aliquam, elit ut vestibulum tristique, nisl nulla maximus lectus, sed laoreet nunc nisl at libero. Sed tincidunt enim eu nulla vestibulum, vel porttitor tortor pretium. Aliquam tristique nisl eu massa aliquet, et consectetur dui rhoncus.
+
+Aenean vel dui velit. Duis interdum enim tortor, quis placerat nulla egestas eget. Quisque rhoncus pretium dui. Nam lobortis neque nec quam laoreet blandit. Aenean a facilisis risus, sit amet convallis est. Pellentesque est massa, eleifend nec odio in, feugiat auctor mauris. Praesent eget est id nisl bibendum lacinia condimentum quis augue. Sed in suscipit libero. Pellentesque malesuada, erat ac placerat sodales, dolor orci malesuada felis, eu convallis leo ex a tellus. Quisque quis mauris vel odio ullamcorper consequat. Integer ac sapien a mi maximus iaculis. In maximus tincidunt augue, in blandit arcu convallis."
+        />
+</LinearLayout>
+
+</ScrollView>
